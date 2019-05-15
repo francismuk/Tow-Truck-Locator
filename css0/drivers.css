@@ -1,0 +1,48 @@
+body{
+  background-image: url(https://cdn.pixabay.com/photo/2015/11/25/11/40/usa-1061843_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card{
+  background-color: lightblue;
+  color: white;
+}
+label {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 20px;
+  padding: 1px;
+  color: white;
+}
+.contact{
+  font-size: 21px;
+  font-family: 'Volkhov', serif
+  color: white;
+}
+#tel {
+  font-family: 'Volkhov', serif
+  color: white;
+}
+img{
+  float: none;
+  height: 160px;
+  width: 150px;
+  border-radius: 50%;
+
+}
+.card {
+  background-color: green;
+}
+#header{
+  text-align: center;
+  font-family: 'Libre Barcode 128 Text', cursive;
+  color: red;
+  font-size: 35px
+}
+#card {
+  background-color: black;
+  height: auto;
+  width: 420px;
+}
+.checked {
+  color: orange;
+}
