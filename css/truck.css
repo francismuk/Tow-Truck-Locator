@@ -125,6 +125,7 @@ html{
      background-size: cover;
      background-position: center;
    }
+
    .background{
      background-color:#091528;
      color: white;
@@ -137,6 +138,30 @@ html{
      margin-left: auto;
      margin-right: auto;
      margin-top: 35px;
+   }
+   .navigati{
+     background-color: #240859;
+
+   }
+   #basic ul{
+     margin-left: auto;
+     margin-right: auto;
+
+   }
+   #basic a{
+     color: white;
+     width:100px;
+     font-size: 120%;
+     transition: all .4s ease-in-out;
+     margin-left: auto;
+     margin-right: auto;
+     font-family: 'Lora', serif;
+
+   }
+   #basic a:hover{
+      transform: scale(1.1,1.1);
+     color: black;
+     opacity: 0.5;
    }
    hr{
      background-color:#030d1e;
@@ -190,9 +215,9 @@ html{
      transition: all .2s ease-in-out;
    }
    .foo:hover{
-     opacity: 0.6;
-
-     color:#091528;
+     opacity: 0.4;
+      transition: all .2s ease-in-out;
+     color:#ab98ce;
      transform: scale(1.1,1.1);
    }
    .footy{
