@@ -1,0 +1,208 @@
+@import url('https://db.onlinewebfonts.com/c/62fe74137dcadfecac5ad095cc7c78f9?family=ITC+Souvenir');
+@font-face {font-family: "ITC Souvenir";
+    src: url("//db.onlinewebfonts.com/t/62fe74137dcadfecac5ad095cc7c78f9.eot");
+    src: url("//db.onlinewebfonts.com/t/62fe74137dcadfecac5ad095cc7c78f9.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/62fe74137dcadfecac5ad095cc7c78f9.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/62fe74137dcadfecac5ad095cc7c78f9.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/62fe74137dcadfecac5ad095cc7c78f9.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/62fe74137dcadfecac5ad095cc7c78f9.svg#ITC Souvenir") format("svg");
+}
+html{
+     position: relative;
+     height: 100%;
+   }
+   body {
+     background:white;
+     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+     font-size: 14px;
+     color:#000;
+     margin: 0;
+     padding: 0;
+   }
+   .swiper-container {
+     width: 100%;
+     height: 100vh;
+   }
+   .swiper-slide {
+     text-align: center;
+     font-size: 18px;
+     background: #fff;
+     /* Center slide text vertically */
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: -webkit-flex;
+     display: flex;
+     -webkit-box-pack: center;
+     -ms-flex-pack: center;
+     -webkit-justify-content: center;
+     justify-content: center;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     -webkit-align-items: center;
+     align-items: center;
+   }
+   .page1 .swiper-slide:nth-child(1){
+     background: url("../images/driver1/two.jpg");
+     background-size: cover;
+     background-position: center;
+   }
+   .swiper-slide:hover{
+
+   }
+   .page1 .swiper-slide:nth-child(2){
+     background: url("../images/driver1/five.jpg");
+     background-size: cover;
+     background-position: center;
+   }
+   .page1 .swiper-slide:nth-child(3){
+     background: url("../images/driver1/three.jpg");
+     background-size: cover;
+     background-position: center;
+   }
+   .page1 .swiper-slide:nth-child(4){
+     background: url("../images/driver1/four.jpg");
+     background-size: cover;
+     background-position: center;
+   }
+   .page1 .swiper-slide:nth-child(5){
+     background: url("../images/driver1/one.jpg");
+     background-size: cover;
+     background-position: center;
+   }
+   .page1 .swiper-slide:nth-child(6){
+     background: url("../images/driver2/one.jpg");
+     background-size: cover;
+     background-position: center;
+   }
+   .page2 .swiper-slide:nth-child(1){
+     background: url("../images/driver2/one.jpg");
+     background-size: cover;
+     background-position: center;
+   }
+   .page2 .swiper-slide:nth-child(2){
+     background: url("../images/driver2/two.jpg");
+     background-size: cover;
+     background-position: center;
+   }
+   .page2 .swiper-slide:nth-child(3){
+     background: url("../images/driver2/three.jpg");
+     background-size: cover;
+     background-position: center;
+   }
+   .page2 .swiper-slide:nth-child(4){
+     background: url("../images/driver2/four.jpg");
+     background-size: cover;
+     background-position: center;
+   }
+   .page2 .swiper-slide:nth-child(5){
+     background: url("../images/driver2/five.jpg");
+     background-size: cover;
+     background-position: center;
+   }
+
+   .page3 .swiper-slide:nth-child(1){
+     background: url("../images/driver3/one.jpg");
+     background-size: cover;
+     background-position: center;
+   }
+   .page3 .swiper-slide:nth-child(2){
+     background: url("../images/driver3/two.jpg");
+     background-size: cover;
+     background-position: center;
+   }
+   .page3 .swiper-slide:nth-child(3){
+     background: url("../images/driver3/three.jpg");
+     background-size: cover;
+     background-position: center;
+   }
+   .page3 .swiper-slide:nth-child(4){
+     background: url("../images/driver3/four.jpg");
+     background-size: cover;
+     background-position: center;
+   }
+   .page3 .swiper-slide:nth-child(5){
+     background: url("../images/driver3/five.jpg");
+     background-size: cover;
+     background-position: center;
+   }
+   .background{
+     background-color:#091528;
+     color: white;
+     margin-top: 5px;
+     position: relative;
+
+   }
+   .background img{
+     justify-content: center;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 35px;
+   }
+   hr{
+     background-color:#030d1e;
+     height:25px;
+     margin: 0px;
+   }
+   .heading{
+     font-family: "ITC Souvenir";
+     font-weight: bold;
+     text-align: center;
+
+   }
+   .details{
+     margin-left: 25px;
+   }
+   .specs{
+     font-family: "ITC Souvenir";
+   }
+   .specs li{
+     list-style-type: none;
+     text-align: left;
+   }
+   .specs h2{
+     margin-left:25px;
+
+   }
+   .specs1{
+     border-right-color: #030d1e;
+     border-right-style: solid;
+     border-right-width: thinfont-family: "ITC Souvenir";
+   }
+   .spec2{
+     margin-top: 40px;
+     font-family: "ITC Souvenir";
+     list-style-type: none;
+   }
+   .spec2 li{
+
+     list-style-type: none;
+   }
+   .foot h3{
+     border-right-color:#030d1e;
+     border-right-style: solid;
+     border-right-width: medium;
+     margin-left:45px;
+     margin-top:55px;
+     font-family: 'Lora', serif;
+
+   }
+   .foo{
+     transition: all .2s ease-in-out;
+   }
+   .foo:hover{
+     opacity: 0.6;
+
+     color:#091528;
+     transform: scale(1.1,1.1);
+   }
+   .footy{
+      font-family: 'Lora', serif;
+      margin-top: 55px;
+   }
+   .refer{
+     position: relative;
+   }
+   .refer img{
+     float:left;
+     position: absolute;
+   }

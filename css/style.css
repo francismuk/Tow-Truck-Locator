@@ -1,0 +1,232 @@
+@import url('https://db.onlinewebfonts.com/c/62fe74137dcadfecac5ad095cc7c78f9?family=ITC+Souvenir');
+@font-face {font-family: "ITC Souvenir";
+    src: url("//db.onlinewebfonts.com/t/62fe74137dcadfecac5ad095cc7c78f9.eot");
+    src: url("//db.onlinewebfonts.com/t/62fe74137dcadfecac5ad095cc7c78f9.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/62fe74137dcadfecac5ad095cc7c78f9.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/62fe74137dcadfecac5ad095cc7c78f9.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/62fe74137dcadfecac5ad095cc7c78f9.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/62fe74137dcadfecac5ad095cc7c78f9.svg#ITC Souvenir") format("svg");
+}
+.navigati{
+  color: black;
+  font-family: "ITC Souvenir";
+
+}
+.navigation a{
+  color:black;
+  font-family: "ITC Souvenir";
+
+}
+#basic{
+  color: black;
+}
+a{
+  color: black;
+}
+.trucks{
+  background-image: url("../images/tow2.jpg");
+  background-size: 100% 100%;
+  background-position: center;
+  margin-left: 100px;
+  margin-right: 75px;
+  position: relative;
+   text-align: center;
+   justify-content: center;
+   width: 1024px;
+   height: 768px;
+   font-family: "ITC Souvenir";
+
+
+}
+.top-left{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-family: "ITC Souvenir";
+
+}
+.top-left h2{
+  background-color: transparent;
+  border-color: white;
+  border-width: medium;
+  border-style:solid;
+
+
+}
+
+ .top-left h2:hover{
+
+  background-color:black;
+  border-color:black;
+  color:white;
+
+}
+.products{
+  justify-content: center;
+  display: flex;
+  width: 723px;
+  height: 900px;
+  border-color: black;
+  border-style: solid;
+  border-width: medium;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  position: relative;
+}
+.cars img{
+  margin-left: 0px;
+}
+img.center{
+  display: block;
+
+  margin-left: 0px;
+  margin-top: 5px;
+  float:right;
+
+
+
+}
+.car1{
+  float: left;
+  margin-left: 0px;
+  width:250px;
+
+
+}
+.car2{
+  float: left;
+  width:250px;
+  margin-left: 0px;
+
+}
+.car3{
+  float: left;
+  width:250px;
+  margin-right: 0px;
+}
+.caption h3{
+    font-size: 125%;
+}
+ .caption{
+  font-size: 75%;
+  position: relative;
+  bottom: 0px;
+  opacity: 0.8;
+  z-index: 150;
+  margin-left: 60px;
+  margin-right: 15px;
+  position: relative;
+  margin-top: 5px;
+  width:250px;
+  height: 250px;
+  bottom: -150px;
+}
+ .fullcaption .caption{
+  background-color:white;
+  position: absolute;
+  color: black;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hvr-sweep-to-right {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-sweep-to-right:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background:black;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
+  color: white;
+}
+.hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:focus:before, .hvr-sweep-to-right:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+/* Sweep To Top */
+.hvr-sweep-to-top {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-sweep-to-top:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2098D1;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-sweep-to-top:hover, .hvr-sweep-to-top:focus, .hvr-sweep-to-top:active {
+  color: white;
+}
+.hvr-sweep-to-top:hover:before, .hvr-sweep-to-top:focus:before, .hvr-sweep-to-top:active:before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+}
