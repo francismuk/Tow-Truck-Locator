@@ -1,0 +1,73 @@
+/* body {
+  background-image: url(https://cdn.pixabay.com/photo/2016/03/31/18/09/construction-1294162_960_720.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+img {
+  height: 220px;
+  width: 220px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  top: 0;
+
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+}
+
+li a:hover {
+  background-color: #111;
+}
+h1 {
+  text-align: center;
+  font-family: 'Libre Barcode 128 Text', cursive;
+  font-size: 80px;
+  background-color: yellow;
+}
+#full{
+  font-family: 'Luckiest Guy', cursive;
+}
+h3 {
+  color: red;
+}
+#blue {
+  color: blue;
+}
+#yellow {
+  color: Green;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.card-body{
+  background-color: #b3ecff;
+}
+#heavy {
+  background-color: #ffcccc;
+}
+#medium {
+  background-color: #ccffff;
+}
+#light {
+  background-color: #80ff80;
+}

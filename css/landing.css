@@ -49,7 +49,7 @@ label {
   font-family: 'Baloo Bhai', cursive;
 }
 
-input[type=submit] {
+input[type=button] {
   background-color: #4CAF50;
   color: white;
   padding: 12px 20px;
@@ -59,7 +59,7 @@ input[type=submit] {
   float: right;
 }
 
-input[type=submit]:hover {
+input[type=button]:hover {
   background-color: #45a049;
 }
 
@@ -297,4 +297,35 @@ span.psw {
 }
 .contain{
 
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+#drop {
+  width: auto;
+  height: 50px;
 }

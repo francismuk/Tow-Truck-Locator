@@ -15,135 +15,123 @@
       <li><a href="#news">News</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#contact">Contact</a></li>
-      <li><a class="active" href="#section1">Home</a></li>
+      <li><a class="active" href="./landing.html">Home</a></li>
     </ul>
     <div class="container">
       <div class="main" id="section1">
         <img src="images/truck-monster-solid.svg" height=250 width="250" alt="">
-          <!-- <div class="typings"> -->
           <h1><strong>FINGING A TOW-TRUCK HAS NEVER BEEN EASIER<strong></h1>
           <p>PLEASE ENTER YOUR DETAILS TO REGISTER AND START USING THIS APP</p>
           <div class="row">
             <div class="col-xl-5"></div>
-            <a href="#section2"><input type="submit" value="SIGN UP NOW"></a>
+            <a href="#section2"><input type="button" value="SIGN UP NOW"></a>
             <div class="col-xl-5">
-              <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
-
-
-
-
-
               <div id="id01" class="modal">
-  <form class="modal-content animate" action="/action_page.php">
-    <div class="imgcontainer">
-      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-      <img src="images/avatar.png" alt="Avatar" class="avatar">
-    </div>
+                <form class="modal-content animate" action="/action_page.php">
+                  <div class="imgcontainer">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                    <img src="images/avatar.png" alt="Avatar" class="avatar">
+                  </div>
 
-    <div class="contain">
-      <label for="uname"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required>
-
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
-
-      <button type="submit">Login</button>
-      <label>
-        <input type="checkbox" checked="checked" name="remember"> Remember me
-      </label>
-    </div>
-
-    <div class="container" style="background-color:#f1f1f1">
-      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-      <span class="psw">Forgot <a href="#">password?</a></span>
-    </div>
-  </form>
-</div>
-
-
+                  <div class="contain">
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                    <button type="submit">Login</button>
+                    <label>
+                      <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                  </div>
+                  <div class="container" style="background-color:#f1f1f1">
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                    <span class="psw">Forgot <a href="#">password?</a></span>
+                  </div>
+                </form>
+              </div>
             </div>
           </div>
           <form class="details" action="drivers(heavy).html" method="post">
             <br>
           </div>
-    <div class="main" id="section2">
-      <form action="/action_page.php">
-        <div class="form">
-          <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-25">
-              <label for="name">Full Name</label>
+          <div class="main" id="section2">
+            <form action="/action_page.php">
+              <div class="form">
+                <div class="row">
+                  <div class="col-md-2"></div>
+                  <div class="col-25">
+                    <label for="name">Full Name</label>
+                  </div>
+                  <div class="col-25">
+                    <input type="text" id="name" name="name" placeholder="Your name..">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-2"></div>
+                  <div class="col-25">
+                    <label for="uname">User Name</label>
+                  </div>
+                  <div class="col-25">
+                    <input type="text" id="uname" name="uname" placeholder="Choose a username..">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-2"></div>
+                  <div class="col-25">
+                    <label for="tel">Phone Number</label>
+                  </div>
+                  <div class="col-25">
+                    <input type="tel" id="tel" name="tel" placeholder="Your phone Number..">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-2"></div>
+                  <div class="col-25">
+                    <label for="email">Email Address</label>
+                  </div>
+                  <div class="col-25">
+                    <input type="email" id="email" name="email" placeholder="Your email..">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-2"></div>
+                  <div class="col-25">
+                    <label for="password">Create password</label>
+                  </div>
+                  <div class="col-25">
+                    <input type="password" id="password" name="password" placeholder="Create password..">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-2"></div>
+                  <div class="col-25">
+                    <label for="password">Rewrite password</label>
+                  </div>
+                  <div class="col-25">
+                    <input type="password" id="password" name="password2" placeholder="Rewrite password..">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-2"></div>
+                  <div class="col-25">
+                    <label for="country">Country</label>
+                  </div>
+                  <div class="col-25">
+                    <select id="country" name="country">
+                      <option value="kenya">Kenya</option>
+                      <option value="uganda">Uganda</option>
+                      <option value="tanzania">Tanzania</option>
+                    </select>
+                  </div>
+                </div>
+                <br>
+                <div class="row">
+                  <div class="col-md-6"></div>
+                  <a href="./trucks.html">
+                    <input type="button" value="Sign Up"></a>
+                  </div>
+                </form>
+              </div>
             </div>
-            <div class="col-25">
-              <input type="text" id="name" name="name" placeholder="Your name..">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-25">
-              <label for="uname">User Name</label>
-            </div>
-            <div class="col-25">
-              <input type="text" id="uname" name="uname" placeholder="Choose a username..">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-25">
-              <label for="tel">Phone Number</label>
-            </div>
-            <div class="col-25">
-              <input type="tel" id="tel" name="tel" placeholder="Your phone Number..">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-25">
-              <label for="email">Email Address</label>
-            </div>
-            <div class="col-25">
-              <input type="email" id="email" name="email" placeholder="Your email..">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-25">
-              <label for="password">Create password</label>
-            </div>
-            <div class="col-25">
-              <input type="password" id="password" name="password" placeholder="Create password..">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-25">
-              <label for="password">Rewrite password</label>
-            </div>
-            <div class="col-25">
-              <input type="password" id="password" name="password2" placeholder="Rewrite password..">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-25">
-              <label for="country">Country</label>
-            </div>
-            <div class="col-25">
-              <select id="country" name="country">
-                <option value="kenya">Kenya</option>
-                <option value="uganda">Uganda</option>
-                <option value="tanzania">Tanzania</option>
-              </select>
-            </div>
-          </div>
-          <br>
-          <div class="row">
-            <div class="col-md-6"></div>
-            <a href="./drivers(heavy).html">
-            <input type="submit" value="Sign Up"></a>
-          </div>
-        </form>
-      </div>
-    </div>
   </body>
 </html>

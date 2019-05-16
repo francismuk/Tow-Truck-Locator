@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/truck.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="js/drivers.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Libre+Barcode+128+Text|Staatliches|Volkhov" rel="stylesheet">
+    <link rel="icon" href="images/tow-truck.png"/>
+    <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text|Luckiest+Guy" rel="stylesheet">
+    <title>Truck Categories</title>
+  </head>
+  <body>
+    <video autoplay muted loop id="myVideo">
+  <source src="./images/7012.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+    <ul>
+      <li><a href="#news">News</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a class="active" href="./landing.html">Home</a></li>
+    </ul>
+    <h1>Choose a category to continue</h1>
+    <div class="container" id="full">
+    <div class="row">
+        <div class="col-md-4">
+          <div class="card-body" id="heavy">
+          <img src="images/heavy.png" alt="">
+          <h3>Heavy Tow Truck</h3>
+          <p>For cars weighing: <em><strong>4500 kg or Higher</strong></em></p>
+          <a href="./drivers.html">
+          <button type="button" class="btn btn-danger" name="button">Order Heavy</button></a>
+          <a href="./driver1.html">
+          <button type="button" class="btn btn-warning" name="button">Learn More</button></a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card-body" id="medium">
+          <img src="images/medium.png" alt="">
+          <h3 id="blue" >Medium Tow Truck</h3>
+          <p>For cars weighing between: <em><strong>2500kg and 4500kgs</strong></em></p>
+          <a href="./driversm.html">
+          <button type="button" class="btn btn-primary" name="button">Order Medium</button></a>
+          <a href="./driver2.html">
+          <button type="button" class="btn btn-warning" name="button">Learn More</button></a>
+        </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card-body" id="light">
+          <img src="images/light.png" alt="">
+          <h3 id="yellow" >Light Tow Truck</h3>
+          <p>For cars weighing: <em><strong>3000 kgs or less</strong></em></p>
+          <a href="./driversl.html">
+          <button type="button" class="btn btn-success" name="button">Order Light</button></a>
+          <a href="./driver3.html">
+          <button type="button" class="btn btn-warning" name="button">Learn More</button></a>
+        </div>
+        </div>
+    </div>
+  </body>
+</html>
