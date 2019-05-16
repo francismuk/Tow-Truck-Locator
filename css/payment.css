@@ -1,0 +1,35 @@
+.money{
+  background-image:url("../img/m.jpg");
+   background-repeat: no-repeat;
+   font-size:35px;
+   color:black;
+   font-family: 'Lobster', cursive;
+   background-position: center;
+   background-size: cover;
+   text-align: center;
+
+}
+#par{
+  color: darkblue;
+  font-family: fantasy;
+  font-size: 50px;
+}
+input[type=button]{
+  width: 10%;
+  padding: 12px;
+  color: green;
+  text-align: center;
+}
+#appreciation{
+  font-family: 'Playball', cursive;
+  font-size: 40px;
+  text-align: center;
+  color: darkred;
+  background-image: url("../img/T3.jpg");
+}
+@media screen and (max-width: 600px) {
+ .money, input[type=button] {
+   width: 100%;
+   margin-top: 0;
+ }
+}

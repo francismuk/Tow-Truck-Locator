@@ -1,0 +1,46 @@
+l {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+ background-color: #333;
+ position: sticky;
+ top: 0;
+
+}
+
+li {
+ float: right;
+}
+
+li a {
+ display: block;
+ color: darkred;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+ color: darkred;
+}
+
+li a:hover {
+ background-color: #111;
+}
+* {
+ box-sizing: border-box;
+}
+.indication{
+  text-align: center;
+  font-size: 35px;
+  padding-top: 50px;
+}
+#truck{
+  background-image:url("../img/contact.jpg");
+  color: greenyellow;
+  padding-top: 400px
+}
+@media screen and (max-width: 600px) {
+ #truck, input[type=submit] {
+   width: 100%;
+   margin-top: 0;
+ }
+}
